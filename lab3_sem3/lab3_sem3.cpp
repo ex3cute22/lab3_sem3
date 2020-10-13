@@ -21,27 +21,27 @@ public:
         ;
     }
     void Read() {
-        printf("Введите марку машины: ");
-        gets_s(marka);
-        printf("Введите модель машины: ");
-        gets_s(model);
-        printf("Введите объём двигателя: ");
-        scanf_s("%f", &q->engine);
-        fflush;
-        printf("Введите кол-во л.с.: ");
-        scanf_s("%d", &q->power);
-        fflush;
-        printf("Введите тип трансмиссии(коробка передач): ");
-        gets_s(q->transmission);
-        printf("Введите цвет автомобиля: ");
-        gets_s(q->color);
-        printf("Введите год автомобиля: ");
-        scanf_s("%d", &q->year);
-        fflush;
-        printf("Введите цену за данный автомобиль: ");
-        scanf_s("%d", &q->price);
-        fflush;
-        printf("\n");
+        //printf("Введите марку машины: ");
+        //gets_s(marka);
+        //printf("Введите модель машины: ");
+        //gets_s(model);
+        //printf("Введите объём двигателя: ");
+        //scanf_s("%f", &q->engine);
+        //fflush;
+        //printf("Введите кол-во л.с.: ");
+        //scanf_s("%d", &q->power);
+        //fflush;
+        //printf("Введите тип трансмиссии(коробка передач): ");
+        //gets_s(q->transmission);
+        //printf("Введите цвет автомобиля: ");
+        //gets_s(q->color);
+        //printf("Введите год автомобиля: ");
+        //scanf_s("%d", &q->year);
+        //fflush;
+        //printf("Введите цену за данный автомобиль: ");
+        //scanf_s("%d", &q->price);
+        //fflush;
+        //printf("\n");
     }
     void Display() {
         printf("%-12s %-12s %-5.1fл. %-4dл.с. %-10s %-15s %-6dг.\t %-16dрублей\n", marka, model, engine, power, transmission, color, year, price);  
